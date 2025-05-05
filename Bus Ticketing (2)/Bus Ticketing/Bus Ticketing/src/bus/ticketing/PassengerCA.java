@@ -83,17 +83,24 @@ public class PassengerCA extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Where do you want to go?");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
+        tocb.setBackground(new java.awt.Color(204, 204, 204));
+        tocb.setForeground(new java.awt.Color(51, 51, 51));
         tocb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         tocb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tocbActionPerformed(evt);
             }
         });
-        jPanel1.add(tocb, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 240, -1));
+        jPanel1.add(tocb, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 240, 30));
 
+        fromcb.setBackground(new java.awt.Color(204, 204, 204));
+        fromcb.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
+        fromcb.setForeground(new java.awt.Color(51, 51, 51));
         fromcb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         fromcb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,35 +112,47 @@ public class PassengerCA extends javax.swing.JFrame {
                 fromcbKeyReleased(evt);
             }
         });
-        jPanel1.add(fromcb, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 240, -1));
+        jPanel1.add(fromcb, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 240, 30));
 
+        browsebtn.setBackground(new java.awt.Color(207, 212, 210));
+        browsebtn.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        browsebtn.setForeground(new java.awt.Color(0, 0, 0));
         browsebtn.setText("BROWSE");
+        browsebtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         browsebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 browsebtnActionPerformed(evt);
             }
         });
-        jPanel1.add(browsebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, -1, -1));
+        jPanel1.add(browsebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 130, 60, 30));
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 51));
+        jButton1.setBackground(new java.awt.Color(15, 42, 29));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bus/ticketing/pics/log-out.png"))); // NOI18N
+        jButton1.setBorderPainted(false);
+        jButton1.setMaximumSize(new java.awt.Dimension(25, 25));
+        jButton1.setMinimumSize(new java.awt.Dimension(25, 25));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 10, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 10, 30, 30));
 
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
         jLabel5.setText("To");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, 20));
 
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
         jLabel6.setText("From");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, 20));
 
-        jLabel1.setBackground(new java.awt.Color(0, 102, 51));
+        jLabel1.setBackground(new java.awt.Color(15, 42, 29));
         jLabel1.setOpaque(true);
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 540, 190));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 190));
 
+        jTable1.setBackground(new java.awt.Color(207, 212, 210));
+        jTable1.setFont(new java.awt.Font("sansserif", 1, 13)); // NOI18N
+        jTable1.setForeground(new java.awt.Color(0, 0, 0));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -152,7 +171,7 @@ public class PassengerCA extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 188, 540, 520));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, 550, 430));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 600));
 

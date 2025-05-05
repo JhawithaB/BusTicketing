@@ -104,95 +104,115 @@ public class TicketView extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 51));
+        jPanel1.setBackground(new java.awt.Color(207, 212, 210));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Confirm Your Booking");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 20, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, -1, -1));
 
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Bus No.:");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Bus Type:");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Travel :");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 70, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, -1, -1));
 
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Travel Date:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 180, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, -1, -1));
 
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Travel Time:");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, -1, -1));
 
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Seat: ");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
 
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Total Amount:");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("jLabel9");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 80, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 90, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("jLabel10");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, -1, -1));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("jLabel11");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 90, -1, -1));
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, -1, 20));
 
         jLabel12.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("jLabel12");
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, -1, -1));
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("jLabel13");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, -1, -1));
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("jLabel14");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, -1, -1));
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("jLabel15");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, -1, -1));
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, -1, -1));
 
-        jLabel16.setText("Enter Your Name:");
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
+        jLabel16.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel16.setText("Name:");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
 
-        confirmName.setFont(new java.awt.Font("DialogInput", 1, 14)); // NOI18N
-        jPanel1.add(confirmName, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 260, 40));
+        confirmName.setBackground(new java.awt.Color(204, 204, 204));
+        confirmName.setFont(new java.awt.Font("DialogInput", 1, 12)); // NOI18N
+        confirmName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                confirmNameActionPerformed(evt);
+            }
+        });
+        jPanel1.add(confirmName, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 260, 30));
 
-        confirmtickbtn.setBackground(new java.awt.Color(0, 153, 51));
+        confirmtickbtn.setBackground(new java.awt.Color(15, 42, 29));
+        confirmtickbtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         confirmtickbtn.setText("Confirm");
+        confirmtickbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         confirmtickbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 confirmtickbtnActionPerformed(evt);
             }
         });
-        jPanel1.add(confirmtickbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 390, 250, 60));
+        jPanel1.add(confirmtickbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 350, 200, 40));
 
-        canceltickbtn.setBackground(new java.awt.Color(0, 153, 51));
+        canceltickbtn.setBackground(new java.awt.Color(207, 212, 210));
+        canceltickbtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        canceltickbtn.setForeground(new java.awt.Color(0, 0, 0));
         canceltickbtn.setText("Cancel");
+        canceltickbtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
         canceltickbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 canceltickbtnActionPerformed(evt);
             }
         });
-        jPanel1.add(canceltickbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 460, 250, 60));
+        jPanel1.add(canceltickbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 200, 40));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 580));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 580));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -246,6 +266,10 @@ public class TicketView extends javax.swing.JFrame {
     private void canceltickbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_canceltickbtnActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_canceltickbtnActionPerformed
+
+    private void confirmNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_confirmNameActionPerformed
 
     /**
      * @param args the command line arguments
