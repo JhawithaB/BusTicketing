@@ -22,6 +22,7 @@ import java.util.*;
  * @author user
  */
 public class BookSeat extends javax.swing.JFrame implements ActionListener{
+    
     private String startingPoint;
     private String destination;
     private String busNo;
@@ -143,7 +144,6 @@ Map<String, Set<String>> bookedSeatsByDate = new HashMap<>();
         jPanel2 = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
         conbtn = new javax.swing.JButton();
-        Traveldate = new com.toedter.calendar.JDateChooser();
         seat11 = new javax.swing.JButton();
         seat12 = new javax.swing.JButton();
         seat13 = new javax.swing.JButton();
@@ -190,35 +190,42 @@ Map<String, Set<String>> bookedSeatsByDate = new HashMap<>();
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Bus No");
+        jLabel2.setText("Bus No.");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
 
+        jLabel3.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Bus Type");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
+        jLabel3.setText("Bus Type:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
+        jLabel4.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 90, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, -1, -1));
 
+        jLabel6.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Fare");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
+        jLabel6.setText("Fare:");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 95, -1, 30));
 
+        jLabel7.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("jLabel7");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 20));
 
+        jLabel9.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Travel:");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 22, -1, 10));
 
+        jLabel10.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Travel Time:");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, -1, -1));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 62, -1, 20));
 
-        jLabel1.setBackground(new java.awt.Color(0, 102, 51));
+        jLabel1.setBackground(new java.awt.Color(15, 42, 29));
         jLabel1.setOpaque(true);
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 140));
 
@@ -226,20 +233,22 @@ Map<String, Set<String>> bookedSeatsByDate = new HashMap<>();
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Select Your Seat", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 18), new java.awt.Color(0, 0, 0))); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel49.setFont(new java.awt.Font("Californian FB", 1, 18)); // NOI18N
+        jLabel49.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel49.setForeground(new java.awt.Color(0, 0, 0));
         jLabel49.setText("Your Seat:");
-        jPanel2.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, -1, -1));
+        jPanel2.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, -1, -1));
 
-        conbtn.setBackground(new java.awt.Color(0, 102, 51));
+        conbtn.setBackground(new java.awt.Color(15, 42, 29));
+        conbtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        conbtn.setForeground(new java.awt.Color(255, 255, 255));
         conbtn.setText("CONTINUE");
+        conbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.black));
         conbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 conbtnActionPerformed(evt);
             }
         });
-        jPanel2.add(conbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 440, 120, -1));
-        jPanel2.add(Traveldate, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 210, -1));
+        jPanel2.add(conbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, 100, 35));
 
         seat11.setBackground(new java.awt.Color(0, 102, 51));
         seat11.setText("11");
@@ -593,18 +602,21 @@ Map<String, Set<String>> bookedSeatsByDate = new HashMap<>();
         });
         jPanel2.add(seat39, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 50, -1));
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 51));
+        jButton1.setBackground(new java.awt.Color(207, 212, 210));
+        jButton1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(15, 42, 29));
         jButton1.setText("CANCEL");
+        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29), 2));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 440, 110, -1));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 430, 100, 35));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 440, 480));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 450, 480));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 640));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 460, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -875,7 +887,6 @@ public String getFare() {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.toedter.calendar.JDateChooser Traveldate;
     private javax.swing.JButton conbtn;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;

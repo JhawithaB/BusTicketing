@@ -62,20 +62,31 @@ public class SignUp extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         Ppass = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
+        PFname1 = new javax.swing.JTextField();
+        PFname2 = new javax.swing.JTextField();
+        label1 = new java.awt.Label();
+        label2 = new java.awt.Label();
+        label3 = new java.awt.Label();
+        label4 = new java.awt.Label();
+        label5 = new java.awt.Label();
+        label6 = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(207, 212, 210));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 102, 51));
+        jLabel1.setFont(new java.awt.Font("SansSerif", 1, 30)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("E - GoTicket");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 60, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, -1, -1));
 
+        PFname.setBackground(new java.awt.Color(255, 255, 255));
+        PFname.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         PFname.setForeground(new java.awt.Color(153, 153, 153));
-        PFname.setText("Enter Firstname");
+        PFname.setText("enter firstname");
+        PFname.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
         PFname.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PFnameFocusGained(evt);
@@ -84,10 +95,17 @@ public class SignUp extends javax.swing.JFrame {
                 PFnameFocusLost(evt);
             }
         });
-        jPanel1.add(PFname, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 270, -1));
+        PFname.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PFnameActionPerformed(evt);
+            }
+        });
+        jPanel1.add(PFname, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 270, 30));
 
+        PLname.setBackground(new java.awt.Color(255, 255, 255));
+        PLname.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         PLname.setForeground(new java.awt.Color(153, 153, 153));
-        PLname.setText("Enter Lastname");
+        PLname.setText("enter  lastname");
         PLname.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PLnameFocusGained(evt);
@@ -101,10 +119,12 @@ public class SignUp extends javax.swing.JFrame {
                 PLnameActionPerformed(evt);
             }
         });
-        jPanel1.add(PLname, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 270, -1));
+        jPanel1.add(PLname, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 180, 270, 30));
 
+        Page.setBackground(new java.awt.Color(255, 255, 255));
+        Page.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         Page.setForeground(new java.awt.Color(153, 153, 153));
-        Page.setText("Enter Age");
+        Page.setText("enter your age");
         Page.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PageFocusGained(evt);
@@ -113,10 +133,12 @@ public class SignUp extends javax.swing.JFrame {
                 PageFocusLost(evt);
             }
         });
-        jPanel1.add(Page, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 270, -1));
+        jPanel1.add(Page, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 270, 30));
 
+        Pcontact.setBackground(new java.awt.Color(255, 255, 255));
+        Pcontact.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         Pcontact.setForeground(new java.awt.Color(153, 153, 153));
-        Pcontact.setText("Contact");
+        Pcontact.setText("enter contact number");
         Pcontact.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PcontactFocusGained(evt);
@@ -125,10 +147,12 @@ public class SignUp extends javax.swing.JFrame {
                 PcontactFocusLost(evt);
             }
         });
-        jPanel1.add(Pcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 270, -1));
+        jPanel1.add(Pcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 270, 30));
 
+        Pemail.setBackground(new java.awt.Color(255, 255, 255));
+        Pemail.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         Pemail.setForeground(new java.awt.Color(153, 153, 153));
-        Pemail.setText("Enter Email");
+        Pemail.setText("enter email address");
         Pemail.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PemailFocusGained(evt);
@@ -137,19 +161,23 @@ public class SignUp extends javax.swing.JFrame {
                 PemailFocusLost(evt);
             }
         });
-        jPanel1.add(Pemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 270, -1));
+        jPanel1.add(Pemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 270, 30));
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 51));
+        jButton1.setBackground(new java.awt.Color(15, 42, 29));
+        jButton1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jButton1.setText("SIGN UP");
+        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 428, 110, 40));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 470, 110, 35));
 
+        Ppass.setBackground(new java.awt.Color(255, 255, 255));
+        Ppass.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
         Ppass.setForeground(new java.awt.Color(153, 153, 153));
-        Ppass.setText("Password");
+        Ppass.setText("enter password");
         Ppass.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 PpassFocusGained(evt);
@@ -158,25 +186,86 @@ public class SignUp extends javax.swing.JFrame {
                 PpassFocusLost(evt);
             }
         });
-        jPanel1.add(Ppass, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 270, -1));
+        jPanel1.add(Ppass, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 420, 270, 30));
 
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
+        jButton2.setBackground(new java.awt.Color(207, 212, 210));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bus/ticketing/pics/left-arrow.png"))); // NOI18N
+        jButton2.setBorderPainted(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 40, 40));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 30, 40));
+
+        PFname1.setBackground(new java.awt.Color(255, 255, 255));
+        PFname1.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
+        PFname1.setForeground(new java.awt.Color(153, 153, 153));
+        PFname1.setText("enter firstname");
+        PFname1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
+        PFname1.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                PFname1FocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                PFname1FocusLost(evt);
+            }
+        });
+        PFname1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PFname1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(PFname1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 270, 30));
+
+        PFname2.setBackground(new java.awt.Color(255, 255, 255));
+        PFname2.setFont(new java.awt.Font("sansserif", 0, 10)); // NOI18N
+        PFname2.setForeground(new java.awt.Color(153, 153, 153));
+        PFname2.setText("enter firstname");
+        PFname2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
+        PFname2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                PFname2FocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                PFname2FocusLost(evt);
+            }
+        });
+        PFname2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PFname2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(PFname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 270, 30));
+
+        label1.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label1.setText("Lastname");
+        jPanel1.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
+
+        label2.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label2.setText("Age");
+        jPanel1.add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, -1, -1));
+
+        label3.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label3.setText("Email");
+        jPanel1.add(label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+
+        label4.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label4.setText("Firstname");
+        jPanel1.add(label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, -1, -1));
+
+        label5.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label5.setText("Password");
+        jPanel1.add(label5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, -1, -1));
+
+        label6.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        label6.setText("Contact Number");
+        jPanel1.add(label6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, -1, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 450, 550));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void PLnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PLnameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PLnameActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
@@ -234,20 +323,6 @@ public class SignUp extends javax.swing.JFrame {
             PFname.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_PFnameFocusLost
-
-    private void PLnameFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PLnameFocusGained
-        if(PLname.getText().equals("Enter Lastname")){
-            PLname.setText("");
-            PLname.setForeground(new Color(0,0,0));
-        }
-    }//GEN-LAST:event_PLnameFocusGained
-
-    private void PLnameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PLnameFocusLost
-         if(PLname.getText().equals("")){
-            PLname.setText("Enter Lastname");
-            PLname.setForeground(new Color(153,153,153));
-        }
-    }//GEN-LAST:event_PLnameFocusLost
 
     private void PageFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PageFocusGained
         if(Page.getText().equals("Enter Age")){
@@ -311,6 +386,52 @@ public class SignUp extends javax.swing.JFrame {
       
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void PFnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PFnameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFnameActionPerformed
+
+    private void PFname1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PFname1FocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname1FocusGained
+
+    private void PFname1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PFname1FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname1FocusLost
+
+    private void PFname1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PFname1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname1ActionPerformed
+
+    private void PFname2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PFname2FocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname2FocusGained
+
+    private void PFname2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PFname2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname2FocusLost
+
+    private void PFname2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PFname2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PFname2ActionPerformed
+
+    private void PLnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PLnameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PLnameActionPerformed
+
+    private void PLnameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PLnameFocusLost
+        if(PLname.getText().equals("")){
+            PLname.setText("Enter Lastname");
+            PLname.setForeground(new Color(153,153,153));
+        }
+    }//GEN-LAST:event_PLnameFocusLost
+
+    private void PLnameFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_PLnameFocusGained
+        if(PLname.getText().equals("Enter Lastname")){
+            PLname.setText("");
+            PLname.setForeground(new Color(0,0,0));
+        }
+    }//GEN-LAST:event_PLnameFocusGained
+
     /**
      * @param args the command line arguments
      */
@@ -348,6 +469,8 @@ public class SignUp extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField PFname;
+    private javax.swing.JTextField PFname1;
+    private javax.swing.JTextField PFname2;
     private javax.swing.JTextField PLname;
     private javax.swing.JTextField Page;
     private javax.swing.JTextField Pcontact;
@@ -357,5 +480,11 @@ public class SignUp extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private java.awt.Label label1;
+    private java.awt.Label label2;
+    private java.awt.Label label3;
+    private java.awt.Label label4;
+    private java.awt.Label label5;
+    private java.awt.Label label6;
     // End of variables declaration//GEN-END:variables
 }

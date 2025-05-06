@@ -99,31 +99,7 @@ public class ManageFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel36 = new javax.swing.JLabel();
         ManageTab = new javax.swing.JTabbedPane();
-        busespnl = new javax.swing.JPanel();
-        Bid = new javax.swing.JTextField();
-        Bno = new javax.swing.JTextField();
-        Btype = new javax.swing.JTextField();
-        slcBroute2 = new javax.swing.JComboBox<>();
-        slcBroute = new javax.swing.JComboBox<>();
-        slcBdriver = new javax.swing.JComboBox<>();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        btnBadd = new javax.swing.JButton();
-        btnBedit = new javax.swing.JButton();
-        btnBdelete = new javax.swing.JButton();
-        btnBsearch = new javax.swing.JButton();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        Bsearch = new javax.swing.JTextField();
-        slcBRid = new javax.swing.JComboBox<>();
-        jLabel35 = new javax.swing.JLabel();
         routespnl = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
@@ -144,34 +120,6 @@ public class ManageFrame extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        bookingpnl = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
-        Tid = new javax.swing.JTextField();
-        Tpid = new javax.swing.JTextField();
-        Tpname = new javax.swing.JTextField();
-        Tseat = new javax.swing.JTextField();
-        Tdate = new com.toedter.calendar.JDateChooser();
-        Tdct = new javax.swing.JTextField();
-        Ttotal = new javax.swing.JTextField();
-        Tsearch = new javax.swing.JTextField();
-        Tsearchbtn = new javax.swing.JButton();
-        Taddbtn = new javax.swing.JButton();
-        Teditbtn = new javax.swing.JButton();
-        Tdeletebtn = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        Troutefrom = new javax.swing.JComboBox<>();
-        Tbid = new javax.swing.JComboBox<>();
-        Trouteto = new javax.swing.JComboBox<>();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
         adminpnl = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         Aid = new javax.swing.JTextField();
@@ -205,6 +153,56 @@ public class ManageFrame extends javax.swing.JFrame {
         Dtable = new javax.swing.JButton();
         Dsearch = new javax.swing.JTextField();
         Dsearchbtn = new javax.swing.JButton();
+        bookingpnl = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
+        Tid = new javax.swing.JTextField();
+        Tpid = new javax.swing.JTextField();
+        Tpname = new javax.swing.JTextField();
+        Tseat = new javax.swing.JTextField();
+        Tdct = new javax.swing.JTextField();
+        Ttotal = new javax.swing.JTextField();
+        Tsearch = new javax.swing.JTextField();
+        Tsearchbtn = new javax.swing.JButton();
+        Taddbtn = new javax.swing.JButton();
+        Teditbtn = new javax.swing.JButton();
+        Tdeletebtn = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        Troutefrom = new javax.swing.JComboBox<>();
+        Tbid = new javax.swing.JComboBox<>();
+        Trouteto = new javax.swing.JComboBox<>();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        busespnl = new javax.swing.JPanel();
+        Bid = new javax.swing.JTextField();
+        Bno = new javax.swing.JTextField();
+        Btype = new javax.swing.JTextField();
+        slcBroute2 = new javax.swing.JComboBox<>();
+        slcBroute = new javax.swing.JComboBox<>();
+        slcBdriver = new javax.swing.JComboBox<>();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        btnBadd = new javax.swing.JButton();
+        btnBedit = new javax.swing.JButton();
+        btnBdelete = new javax.swing.JButton();
+        btnBsearch = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        Bsearch = new javax.swing.JTextField();
+        slcBRid = new javax.swing.JComboBox<>();
+        jLabel35 = new javax.swing.JLabel();
 
         jLabel5.setText("jLabel5");
 
@@ -219,14 +217,15 @@ public class ManageFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        mngbusBtn.setBackground(new java.awt.Color(0, 138, 53));
-        mngbusBtn.setFont(new java.awt.Font("Californian FB", 1, 14)); // NOI18N
-        mngbusBtn.setForeground(new java.awt.Color(255, 255, 255));
+        mngbusBtn.setBackground(new java.awt.Color(204, 204, 204));
+        mngbusBtn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        mngbusBtn.setForeground(new java.awt.Color(0, 0, 0));
         mngbusBtn.setText("Buses");
+        mngbusBtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 1, true));
         mngbusBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mngbusBtnMouseClicked(evt);
@@ -237,12 +236,13 @@ public class ManageFrame extends javax.swing.JFrame {
                 mngbusBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(mngbusBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 90, 90, 40));
+        jPanel1.add(mngbusBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 110, 90, 30));
 
-        mngrouteBtn.setBackground(new java.awt.Color(0, 138, 53));
-        mngrouteBtn.setFont(new java.awt.Font("Californian FB", 1, 14)); // NOI18N
-        mngrouteBtn.setForeground(new java.awt.Color(255, 255, 255));
+        mngrouteBtn.setBackground(new java.awt.Color(204, 204, 204));
+        mngrouteBtn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        mngrouteBtn.setForeground(new java.awt.Color(0, 0, 0));
         mngrouteBtn.setText("Routes");
+        mngrouteBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
         mngrouteBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mngrouteBtnMouseClicked(evt);
@@ -253,184 +253,66 @@ public class ManageFrame extends javax.swing.JFrame {
                 mngrouteBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(mngrouteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 90, 90, 40));
+        jPanel1.add(mngrouteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 110, 90, 30));
 
-        mngbookingsBtn.setBackground(new java.awt.Color(0, 138, 53));
-        mngbookingsBtn.setFont(new java.awt.Font("Californian FB", 1, 14)); // NOI18N
-        mngbookingsBtn.setForeground(new java.awt.Color(255, 255, 255));
+        mngbookingsBtn.setBackground(new java.awt.Color(204, 204, 204));
+        mngbookingsBtn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        mngbookingsBtn.setForeground(new java.awt.Color(0, 0, 0));
         mngbookingsBtn.setText("Bookings");
+        mngbookingsBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
         mngbookingsBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mngbookingsBtnMouseClicked(evt);
             }
         });
-        jPanel1.add(mngbookingsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 90, 100, 40));
+        jPanel1.add(mngbookingsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 110, 100, 30));
 
-        mngadminsBtn.setBackground(new java.awt.Color(0, 138, 53));
-        mngadminsBtn.setFont(new java.awt.Font("Californian FB", 1, 14)); // NOI18N
-        mngadminsBtn.setForeground(new java.awt.Color(255, 255, 255));
+        mngadminsBtn.setBackground(new java.awt.Color(204, 204, 204));
+        mngadminsBtn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        mngadminsBtn.setForeground(new java.awt.Color(0, 0, 0));
         mngadminsBtn.setText("Admins/Drivers");
+        mngadminsBtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 1, true));
         mngadminsBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mngadminsBtnMouseClicked(evt);
             }
         });
-        jPanel1.add(mngadminsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 90, 140, 40));
+        jPanel1.add(mngadminsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 110, 130, 30));
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(204, 204, 204));
         jLabel2.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel2.setText("ADMIN: ");
+        jLabel2.setText("Admin:");
         jLabel2.setOpaque(true);
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 130, 30));
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(204, 204, 204));
         jLabel1.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel1.setText("ADMIN ID:");
+        jLabel1.setText("Admin ID:");
         jLabel1.setOpaque(true);
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 80, 30));
 
         jButton1.setBackground(new java.awt.Color(0, 102, 51));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bus/ticketing/pics/log-out.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 10, 40, 30));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 0, 40, 30));
 
-        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bus/ticketing/pics/Etick2.jpg"))); // NOI18N
-        jPanel1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 690, 130));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, 130));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, 140));
 
         ManageTab.setBackground(new java.awt.Color(153, 153, 255));
 
-        busespnl.setBackground(new java.awt.Color(0, 102, 51));
-        busespnl.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Buses", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 14), new java.awt.Color(0, 0, 0))); // NOI18N
-        busespnl.setForeground(new java.awt.Color(0, 0, 0));
-        busespnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        busespnl.add(Bid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 230, 30));
-        busespnl.add(Bno, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 230, 30));
-        busespnl.add(Btype, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 230, 30));
-
-        slcBroute2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        slcBroute2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                slcBroute2ActionPerformed(evt);
-            }
-        });
-        busespnl.add(slcBroute2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 240, 40));
-
-        slcBroute.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        busespnl.add(slcBroute, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 240, 40));
-
-        slcBdriver.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        slcBdriver.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                slcBdriverActionPerformed(evt);
-            }
-        });
-        busespnl.add(slcBdriver, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 240, 40));
-
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel7.setText("Bus ID");
-        busespnl.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
-
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel8.setText("Bus Plate No.");
-        busespnl.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
-
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel9.setText("Bus Type");
-        busespnl.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
-
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel10.setText("Select Route");
-        busespnl.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, -1, -1));
-
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel11.setText("Select Driver");
-        busespnl.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
-
-        jLabel34.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel34.setText("Destination");
-        busespnl.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
-
-        jLabel33.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel33.setText("Starting Point");
-        busespnl.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
-
-        btnBadd.setBackground(new java.awt.Color(0, 153, 51));
-        btnBadd.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        btnBadd.setText(" ADD ");
-        btnBadd.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBaddActionPerformed(evt);
-            }
-        });
-        busespnl.add(btnBadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 410, 110, 40));
-
-        btnBedit.setBackground(new java.awt.Color(51, 153, 0));
-        btnBedit.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        btnBedit.setText("EDIT");
-        btnBedit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBeditActionPerformed(evt);
-            }
-        });
-        busespnl.add(btnBedit, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 410, 110, 40));
-
-        btnBdelete.setBackground(new java.awt.Color(51, 153, 0));
-        btnBdelete.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        btnBdelete.setText("DELETE");
-        btnBdelete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBdeleteActionPerformed(evt);
-            }
-        });
-        busespnl.add(btnBdelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 410, 110, 40));
-
-        btnBsearch.setText("SEARCH ");
-        btnBsearch.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBsearchActionPerformed(evt);
-            }
-        });
-        busespnl.add(btnBsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 30, -1, -1));
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
-            },
-            new String [] {
-                "Bus ID", "Bus No.", "Bus Type", "Starting Point", "Destination", "Route Id", "Driver"
-            }
-        ));
-        jScrollPane2.setViewportView(jTable1);
-
-        busespnl.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, 660, 320));
-        busespnl.add(Bsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 30, 190, -1));
-
-        slcBRid.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        busespnl.add(slcBRid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 240, 40));
-
-        jLabel35.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel35.setText("Route ID");
-        busespnl.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, -1, -1));
-
-        ManageTab.addTab("tab1", busespnl);
-
-        routespnl.setBackground(new java.awt.Color(0, 102, 0));
+        routespnl.setBackground(new java.awt.Color(207, 212, 210));
         routespnl.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Routes", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 14), new java.awt.Color(0, 0, 0))); // NOI18N
         routespnl.setForeground(new java.awt.Color(0, 0, 0));
         routespnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTable2.setBackground(new java.awt.Color(204, 204, 204));
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},
@@ -444,96 +326,357 @@ public class ManageFrame extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable2);
 
-        routespnl.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, 550, 320));
-        routespnl.add(Rid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 170, -1));
-        routespnl.add(Rst, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 170, -1));
+        routespnl.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 660, 320));
 
+        Rid.setBackground(new java.awt.Color(255, 255, 255));
+        routespnl.add(Rid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 190, 30));
+
+        Rst.setBackground(new java.awt.Color(255, 255, 255));
+        routespnl.add(Rst, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 190, 30));
+
+        Rdes.setBackground(new java.awt.Color(255, 255, 255));
         Rdes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RdesActionPerformed(evt);
             }
         });
-        routespnl.add(Rdes, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 170, -1));
-        routespnl.add(Rdep, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 170, 30));
+        routespnl.add(Rdes, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 190, 30));
 
+        Rdep.setBackground(new java.awt.Color(255, 255, 255));
+        routespnl.add(Rdep, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 190, 30));
+
+        Rfare.setBackground(new java.awt.Color(255, 255, 255));
         Rfare.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RfareActionPerformed(evt);
             }
         });
-        routespnl.add(Rfare, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, 170, -1));
-        routespnl.add(Rsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 200, -1));
-        routespnl.add(Rarr, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 170, 30));
+        routespnl.add(Rfare, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 190, 30));
 
-        Radd.setBackground(new java.awt.Color(0, 153, 51));
+        Rsearch.setBackground(new java.awt.Color(255, 255, 255));
+        Rsearch.setForeground(new java.awt.Color(0, 0, 0));
+        routespnl.add(Rsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, 590, 25));
+
+        Rarr.setBackground(new java.awt.Color(255, 255, 255));
+        routespnl.add(Rarr, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 190, 30));
+
+        Radd.setBackground(new java.awt.Color(15, 42, 29));
         Radd.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Radd.setText("ADD");
+        Radd.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         Radd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RaddActionPerformed(evt);
             }
         });
-        routespnl.add(Radd, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 410, 100, 40));
+        routespnl.add(Radd, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 440, 215, 40));
 
-        Rdelete.setBackground(new java.awt.Color(0, 153, 51));
+        Rdelete.setBackground(new java.awt.Color(15, 42, 29));
         Rdelete.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Rdelete.setText("DELETE");
+        Rdelete.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         Rdelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RdeleteActionPerformed(evt);
             }
         });
-        routespnl.add(Rdelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 410, 100, 40));
+        routespnl.add(Rdelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 440, 215, 40));
 
-        Redit.setBackground(new java.awt.Color(0, 153, 51));
+        Redit.setBackground(new java.awt.Color(15, 42, 29));
         Redit.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Redit.setText("EDIT");
+        Redit.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         Redit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReditActionPerformed(evt);
             }
         });
-        routespnl.add(Redit, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 410, 100, 40));
+        routespnl.add(Redit, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 440, 215, 40));
 
+        btnRsearch.setBackground(new java.awt.Color(15, 42, 29));
+        btnRsearch.setFont(new java.awt.Font("sansserif", 1, 8)); // NOI18N
         btnRsearch.setText("Search");
         btnRsearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRsearchActionPerformed(evt);
             }
         });
-        routespnl.add(btnRsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 30, 100, -1));
+        routespnl.add(btnRsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 30, 70, 25));
 
+        jLabel3.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Route ID");
-        routespnl.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
+        routespnl.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, 20));
 
+        jLabel12.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("Starting Piont");
-        routespnl.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+        routespnl.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, 20));
 
+        jLabel13.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Destination");
-        routespnl.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 100, -1, -1));
+        routespnl.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, -1, 20));
 
+        jLabel14.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Depature Time");
-        routespnl.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, -1, -1));
+        routespnl.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, -1, 20));
 
+        jLabel15.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Fare (P)");
-        routespnl.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
+        routespnl.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, 20));
 
+        jLabel16.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("Arrival Time");
-        routespnl.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, -1, -1));
+        routespnl.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, 20));
 
         ManageTab.addTab("tab2", routespnl);
 
-        bookingpnl.setBackground(new java.awt.Color(0, 102, 51));
-        bookingpnl.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Bookings", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 18))); // NOI18N
+        adminpnl.setBackground(new java.awt.Color(15, 42, 29));
+        adminpnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel2.setBackground(new java.awt.Color(207, 212, 210));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Admins", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 24), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel2.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Aid.setBackground(new java.awt.Color(255, 255, 255));
+        Aid.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel2.add(Aid, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, 240, 30));
+
+        Aname.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.add(Aname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 150, 240, 30));
+
+        Acontact.setBackground(new java.awt.Color(255, 255, 255));
+        Acontact.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AcontactActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Acontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 240, 30));
+
+        Apass.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.add(Apass, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 240, 30));
+
+        Aaddbtn.setBackground(new java.awt.Color(207, 212, 210));
+        Aaddbtn.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Aaddbtn.setForeground(new java.awt.Color(15, 42, 29));
+        Aaddbtn.setText("ADD");
+        Aaddbtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Aaddbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AaddbtnActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Aaddbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 75, 35));
+
+        Aeditbtn.setBackground(new java.awt.Color(207, 212, 210));
+        Aeditbtn.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Aeditbtn.setForeground(new java.awt.Color(15, 42, 29));
+        Aeditbtn.setText("EDIT");
+        Aeditbtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Aeditbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AeditbtnActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Aeditbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 390, 75, 35));
+
+        Adeletebtn.setBackground(new java.awt.Color(207, 212, 209));
+        Adeletebtn.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Adeletebtn.setForeground(new java.awt.Color(15, 42, 29));
+        Adeletebtn.setText("DELETE");
+        Adeletebtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Adeletebtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AdeletebtnActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Adeletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, 75, 35));
+
+        Atable.setBackground(new java.awt.Color(15, 42, 29));
+        Atable.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Atable.setText("CHECK");
+        Atable.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AtableActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Atable, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 75, 35));
+
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("Admin ID:");
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, 30));
+
+        jLabel21.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel21.setText("Admin Name:");
+        jPanel2.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
+
+        jLabel26.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel26.setText("Contact:");
+        jPanel2.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
+
+        jLabel27.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel27.setText("Role:");
+        jPanel2.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, -1));
+
+        jLabel28.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel28.setText("Email:");
+        jPanel2.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
+
+        jLabel29.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel29.setText("Password:");
+        jPanel2.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, -1, -1));
+
+        Asearch.setBackground(new java.awt.Color(255, 255, 255));
+        Asearch.setForeground(new java.awt.Color(0, 0, 0));
+        Asearch.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(15, 42, 29)));
+        Asearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AsearchActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Asearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 280, 25));
+
+        Asearchbtn.setBackground(new java.awt.Color(15, 42, 29));
+        Asearchbtn.setFont(new java.awt.Font("sansserif", 1, 8)); // NOI18N
+        Asearchbtn.setText("SEARCH");
+        Asearchbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
+        Asearchbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AsearchbtnActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Asearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, 70, 25));
+
+        Arole.setBackground(new java.awt.Color(255, 255, 255));
+        Arole.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AroleActionPerformed(evt);
+            }
+        });
+        jPanel2.add(Arole, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 230, 240, 30));
+
+        Aemail.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.add(Aemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 240, 30));
+
+        adminpnl.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 410, 470));
+
+        jPanel3.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Drivers", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 24), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel3.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Did.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.add(Did, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, 260, 30));
+
+        Dname.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.add(Dname, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, 260, 30));
+
+        Dcontact.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.add(Dcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, 260, 30));
+
+        jLabel30.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel30.setText("Driver ID:");
+        jPanel3.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
+
+        jLabel31.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel31.setText("Driver Name:");
+        jPanel3.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
+
+        jLabel32.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel32.setText("Contact:");
+        jPanel3.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, -1));
+
+        Dadd.setBackground(new java.awt.Color(207, 212, 210));
+        Dadd.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Dadd.setForeground(new java.awt.Color(0, 0, 0));
+        Dadd.setText("ADD");
+        Dadd.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Dadd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DaddActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Dadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 75, 35));
+
+        Dedit.setBackground(new java.awt.Color(207, 212, 210));
+        Dedit.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Dedit.setForeground(new java.awt.Color(0, 0, 0));
+        Dedit.setText("EDIT");
+        Dedit.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Dedit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DeditActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Dedit, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 390, 75, 35));
+
+        Ddelete.setBackground(new java.awt.Color(207, 212, 210));
+        Ddelete.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Ddelete.setForeground(new java.awt.Color(0, 0, 0));
+        Ddelete.setText("DELETE");
+        Ddelete.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(15, 42, 29), 2, true));
+        Ddelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DdeleteActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Ddelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, 75, 35));
+
+        Dtable.setBackground(new java.awt.Color(15, 42, 29));
+        Dtable.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        Dtable.setText("CHECK");
+        Dtable.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DtableActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Dtable, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 75, 35));
+
+        Dsearch.setBackground(new java.awt.Color(255, 255, 255));
+        Dsearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DsearchActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Dsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 280, 25));
+
+        Dsearchbtn.setBackground(new java.awt.Color(15, 42, 29));
+        Dsearchbtn.setFont(new java.awt.Font("sansserif", 1, 8)); // NOI18N
+        Dsearchbtn.setText("SEARCH");
+        Dsearchbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
+        Dsearchbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DsearchbtnActionPerformed(evt);
+            }
+        });
+        jPanel3.add(Dsearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, 70, 25));
+
+        adminpnl.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 40, 410, 470));
+
+        ManageTab.addTab("tab4", adminpnl);
+
+        bookingpnl.setBackground(new java.awt.Color(15, 42, 29));
+        bookingpnl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         bookingpnl.setForeground(new java.awt.Color(255, 255, 255));
         bookingpnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTable3.setBackground(new java.awt.Color(207, 212, 210));
+        jTable3.setFont(new java.awt.Font("sansserif", 1, 13)); // NOI18N
+        jTable3.setForeground(new java.awt.Color(0, 0, 0));
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null},
@@ -550,298 +693,296 @@ public class ManageFrame extends javax.swing.JFrame {
             jTable3.getColumnModel().getColumn(9).setResizable(false);
         }
 
-        bookingpnl.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 920, 300));
-        bookingpnl.add(Tid, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 110, -1));
-        bookingpnl.add(Tpid, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 110, -1));
-        bookingpnl.add(Tpname, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 260, -1));
+        bookingpnl.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 910, 320));
 
+        Tid.setBackground(new java.awt.Color(204, 204, 204));
+        bookingpnl.add(Tid, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 120, 30));
+
+        Tpid.setBackground(new java.awt.Color(204, 204, 204));
+        bookingpnl.add(Tpid, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 120, 30));
+
+        Tpname.setBackground(new java.awt.Color(204, 204, 204));
+        bookingpnl.add(Tpname, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 260, 30));
+
+        Tseat.setBackground(new java.awt.Color(204, 204, 204));
         Tseat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TseatActionPerformed(evt);
             }
         });
-        bookingpnl.add(Tseat, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 100, -1));
+        bookingpnl.add(Tseat, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 120, 30));
 
-        Tdate.setBackground(new java.awt.Color(255, 255, 255));
-        Tdate.setBorder(null);
-        Tdate.setForeground(new java.awt.Color(255, 255, 255));
-        bookingpnl.add(Tdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, 150, -1));
-        bookingpnl.add(Tdct, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 110, -1));
-        bookingpnl.add(Ttotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 190, 130, -1));
-        bookingpnl.add(Tsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, 170, -1));
+        Tdct.setBackground(new java.awt.Color(204, 204, 204));
+        bookingpnl.add(Tdct, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 190, 170, 30));
 
+        Ttotal.setBackground(new java.awt.Color(204, 204, 204));
+        Ttotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TtotalActionPerformed(evt);
+            }
+        });
+        bookingpnl.add(Ttotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 190, 170, 30));
+
+        Tsearch.setBackground(new java.awt.Color(204, 204, 204));
+        bookingpnl.add(Tsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 10, 260, 25));
+
+        Tsearchbtn.setBackground(new java.awt.Color(15, 42, 29));
+        Tsearchbtn.setFont(new java.awt.Font("sansserif", 1, 8)); // NOI18N
+        Tsearchbtn.setForeground(new java.awt.Color(255, 255, 255));
         Tsearchbtn.setText("SEARCH");
         Tsearchbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TsearchbtnActionPerformed(evt);
             }
         });
-        bookingpnl.add(Tsearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 30, 80, -1));
+        bookingpnl.add(Tsearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 10, 80, 25));
 
-        Taddbtn.setBackground(new java.awt.Color(0, 153, 51));
+        Taddbtn.setBackground(new java.awt.Color(15, 42, 29));
+        Taddbtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Taddbtn.setText("ADD");
+        Taddbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(60, 63, 65)));
         Taddbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TaddbtnActionPerformed(evt);
             }
         });
-        bookingpnl.add(Taddbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 90, 110, 40));
+        bookingpnl.add(Taddbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 90, 100, 40));
 
-        Teditbtn.setBackground(new java.awt.Color(0, 153, 51));
+        Teditbtn.setBackground(new java.awt.Color(15, 42, 29));
+        Teditbtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Teditbtn.setText("EDIT");
+        Teditbtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         Teditbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TeditbtnActionPerformed(evt);
             }
         });
-        bookingpnl.add(Teditbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 140, 110, 40));
+        bookingpnl.add(Teditbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 100, 40));
 
-        Tdeletebtn.setBackground(new java.awt.Color(0, 153, 51));
+        Tdeletebtn.setBackground(new java.awt.Color(15, 42, 29));
+        Tdeletebtn.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         Tdeletebtn.setText("DELETE");
+        Tdeletebtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0)));
         Tdeletebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TdeletebtnActionPerformed(evt);
             }
         });
-        bookingpnl.add(Tdeletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 190, 110, 40));
+        bookingpnl.add(Tdeletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 170, 100, 40));
 
-        jLabel4.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Ticket ID");
         bookingpnl.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
 
-        jLabel17.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Passenger ID");
         bookingpnl.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
 
-        jLabel18.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Passenger Name");
         bookingpnl.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
 
-        jLabel19.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Bus ID");
-        bookingpnl.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 40, -1, -1));
+        bookingpnl.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, -1, -1));
 
-        jLabel20.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Seat No.");
-        bookingpnl.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, -1, -1));
+        bookingpnl.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, -1, -1));
 
-        jLabel22.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Date");
-        bookingpnl.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, -1, -1));
+        bookingpnl.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 40, -1, -1));
 
-        jLabel24.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Discount");
-        bookingpnl.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
+        bookingpnl.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, -1, -1));
 
-        jLabel25.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Total Amount");
-        bookingpnl.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 170, -1, -1));
+        bookingpnl.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 170, -1, -1));
 
+        Troutefrom.setBackground(new java.awt.Color(204, 204, 204));
+        Troutefrom.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
         Troutefrom.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        bookingpnl.add(Troutefrom, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, 180, -1));
+        bookingpnl.add(Troutefrom, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, 170, 30));
 
+        Tbid.setBackground(new java.awt.Color(204, 204, 204));
         Tbid.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        bookingpnl.add(Tbid, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 110, -1));
+        bookingpnl.add(Tbid, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 120, 30));
 
+        Trouteto.setBackground(new java.awt.Color(204, 204, 204));
+        Trouteto.setFont(new java.awt.Font("sansserif", 0, 12)); // NOI18N
         Trouteto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        bookingpnl.add(Trouteto, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 120, 200, -1));
+        bookingpnl.add(Trouteto, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 120, 170, 30));
 
-        jLabel38.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
+        jLabel38.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setText("Route");
-        bookingpnl.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, -1, -1));
+        bookingpnl.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, -1, -1));
 
         jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bus/ticketing/pics/next.png"))); // NOI18N
-        bookingpnl.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 116, -1, 30));
+        bookingpnl.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, 30, 30));
 
         ManageTab.addTab("tab3", bookingpnl);
 
-        adminpnl.setBackground(new java.awt.Color(0, 102, 51));
-        adminpnl.setBorder(null);
-        adminpnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        busespnl.setBackground(new java.awt.Color(207, 212, 210));
+        busespnl.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Buses", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        busespnl.setForeground(new java.awt.Color(0, 0, 0));
+        busespnl.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Admins", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 24), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel2.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel2.add(Aid, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, 240, -1));
-        jPanel2.add(Aname, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, 240, -1));
+        Bid.setBackground(new java.awt.Color(255, 255, 255));
+        busespnl.add(Bid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 240, 30));
 
-        Acontact.addActionListener(new java.awt.event.ActionListener() {
+        Bno.setBackground(new java.awt.Color(255, 255, 255));
+        busespnl.add(Bno, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 240, 30));
+
+        Btype.setBackground(new java.awt.Color(255, 255, 255));
+        busespnl.add(Btype, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 240, 30));
+
+        slcBroute2.setBackground(new java.awt.Color(255, 255, 255));
+        slcBroute2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        slcBroute2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AcontactActionPerformed(evt);
+                slcBroute2ActionPerformed(evt);
             }
         });
-        jPanel2.add(Acontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 240, -1));
-        jPanel2.add(Apass, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 240, -1));
+        busespnl.add(slcBroute2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 240, 30));
 
-        Aaddbtn.setBackground(new java.awt.Color(0, 153, 51));
-        Aaddbtn.setText("ADD");
-        Aaddbtn.addActionListener(new java.awt.event.ActionListener() {
+        slcBroute.setBackground(new java.awt.Color(255, 255, 255));
+        slcBroute.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        busespnl.add(slcBroute, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, 240, 30));
+
+        slcBdriver.setBackground(new java.awt.Color(255, 255, 255));
+        slcBdriver.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        slcBdriver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AaddbtnActionPerformed(evt);
+                slcBdriverActionPerformed(evt);
             }
         });
-        jPanel2.add(Aaddbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 80, 50));
+        busespnl.add(slcBdriver, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 490, 240, 30));
 
-        Aeditbtn.setBackground(new java.awt.Color(0, 153, 51));
-        Aeditbtn.setText("EDIT");
-        Aeditbtn.addActionListener(new java.awt.event.ActionListener() {
+        jLabel7.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel7.setText("Bus ID");
+        busespnl.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, 20));
+
+        jLabel8.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel8.setText("Bus Plate No.");
+        busespnl.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, 20));
+
+        jLabel9.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel9.setText("Bus Type");
+        busespnl.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, -1, 20));
+
+        jLabel10.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel10.setText("Select Route");
+        busespnl.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, -1));
+
+        jLabel11.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("Select Driver");
+        busespnl.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, -1, 20));
+
+        jLabel34.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel34.setText("Destination");
+        busespnl.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, -1, 20));
+
+        jLabel33.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel33.setText("Starting Point");
+        busespnl.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, -1, 20));
+
+        btnBadd.setBackground(new java.awt.Color(15, 42, 29));
+        btnBadd.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        btnBadd.setText(" ADD ");
+        btnBadd.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.black));
+        btnBadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AeditbtnActionPerformed(evt);
+                btnBaddActionPerformed(evt);
             }
         });
-        jPanel2.add(Aeditbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 460, 90, 50));
+        busespnl.add(btnBadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 480, 200, 40));
 
-        Adeletebtn.setBackground(new java.awt.Color(0, 153, 51));
-        Adeletebtn.setText("DELETE");
-        Adeletebtn.addActionListener(new java.awt.event.ActionListener() {
+        btnBedit.setBackground(new java.awt.Color(15, 42, 29));
+        btnBedit.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        btnBedit.setText("EDIT");
+        btnBedit.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.black));
+        btnBedit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AdeletebtnActionPerformed(evt);
+                btnBeditActionPerformed(evt);
             }
         });
-        jPanel2.add(Adeletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 80, 50));
+        busespnl.add(btnBedit, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 480, 210, 40));
 
-        Atable.setBackground(new java.awt.Color(0, 153, 51));
-        Atable.setText("CHECK");
-        Atable.addActionListener(new java.awt.event.ActionListener() {
+        btnBdelete.setBackground(new java.awt.Color(15, 42, 29));
+        btnBdelete.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        btnBdelete.setText("DELETE");
+        btnBdelete.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.black));
+        btnBdelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AtableActionPerformed(evt);
+                btnBdeleteActionPerformed(evt);
             }
         });
-        jPanel2.add(Atable, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 460, 80, 50));
+        busespnl.add(btnBdelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 480, 210, 40));
 
-        jLabel6.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel6.setText("Admin ID:");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
-
-        jLabel21.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel21.setText("Admin Name:");
-        jPanel2.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, -1, -1));
-
-        jLabel26.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel26.setText("Contact:");
-        jPanel2.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
-
-        jLabel27.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel27.setText("Role:");
-        jPanel2.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
-
-        jLabel28.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel28.setText("Email:");
-        jPanel2.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, -1, -1));
-
-        jLabel29.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel29.setText("Password:");
-        jPanel2.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, -1, -1));
-        jPanel2.add(Asearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 160, -1));
-
-        Asearchbtn.setText("SEARCH");
-        Asearchbtn.addActionListener(new java.awt.event.ActionListener() {
+        btnBsearch.setBackground(new java.awt.Color(15, 42, 29));
+        btnBsearch.setFont(new java.awt.Font("sansserif", 1, 8)); // NOI18N
+        btnBsearch.setText("SEARCH ");
+        btnBsearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AsearchbtnActionPerformed(evt);
+                btnBsearchActionPerformed(evt);
             }
         });
-        jPanel2.add(Asearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 40, 100, -1));
+        busespnl.add(btnBsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 20, 70, 25));
 
-        Arole.addActionListener(new java.awt.event.ActionListener() {
+        jTable1.setBackground(new java.awt.Color(204, 204, 204));
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "Bus ID", "Bus No.", "Bus Type", "Starting Point", "Destination", "Route Id", "Driver"
+            }
+        ));
+        jScrollPane2.setViewportView(jTable1);
+
+        busespnl.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, 640, 370));
+
+        Bsearch.setBackground(new java.awt.Color(255, 255, 255));
+        busespnl.add(Bsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, 570, 25));
+
+        slcBRid.setBackground(new java.awt.Color(255, 255, 255));
+        slcBRid.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        slcBRid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AroleActionPerformed(evt);
+                slcBRidActionPerformed(evt);
             }
         });
-        jPanel2.add(Arole, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, 240, -1));
-        jPanel2.add(Aemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 240, -1));
+        busespnl.add(slcBRid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, 240, 30));
 
-        adminpnl.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 450, 540));
+        jLabel35.setFont(new java.awt.Font("sansserif", 1, 10)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel35.setText("Route ID");
+        busespnl.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, -1, 20));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Manage Drivers", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Californian FB", 1, 24), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel3.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(Did, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, 260, -1));
-        jPanel3.add(Dname, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, 260, -1));
-        jPanel3.add(Dcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, 260, -1));
-
-        jLabel30.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel30.setText("Driver ID:");
-        jPanel3.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
-
-        jLabel31.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel31.setText("Driver Name:");
-        jPanel3.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
-
-        jLabel32.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel32.setText("Contact:");
-        jPanel3.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
-
-        Dadd.setBackground(new java.awt.Color(0, 153, 51));
-        Dadd.setText("ADD");
-        Dadd.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DaddActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Dadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 80, 50));
-
-        Dedit.setBackground(new java.awt.Color(0, 153, 51));
-        Dedit.setText("EDIT");
-        Dedit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DeditActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Dedit, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 460, 80, 50));
-
-        Ddelete.setBackground(new java.awt.Color(0, 153, 51));
-        Ddelete.setText("DELETE");
-        Ddelete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DdeleteActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Ddelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 80, 50));
-
-        Dtable.setBackground(new java.awt.Color(0, 153, 51));
-        Dtable.setText("CHECK");
-        Dtable.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DtableActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Dtable, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 460, 80, 50));
-
-        Dsearch.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DsearchActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Dsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, 150, -1));
-
-        Dsearchbtn.setText("SEARCH");
-        Dsearchbtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DsearchbtnActionPerformed(evt);
-            }
-        });
-        jPanel3.add(Dsearchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 40, 100, -1));
-
-        adminpnl.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 450, 540));
-
-        ManageTab.addTab("tab4", adminpnl);
+        ManageTab.addTab("tab1", busespnl);
 
         getContentPane().add(ManageTab, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 940, 590));
 
@@ -1677,6 +1818,18 @@ try {
     
     }//GEN-LAST:event_DsearchbtnActionPerformed
 
+    private void TtotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TtotalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TtotalActionPerformed
+
+    private void AsearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AsearchActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AsearchActionPerformed
+
+    private void slcBRidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_slcBRidActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_slcBRidActionPerformed
+
     public void ToTableBus(){
     int Ccount;
     try {
@@ -1910,7 +2063,6 @@ try {
     private javax.swing.JTextField Rst;
     private javax.swing.JButton Taddbtn;
     private javax.swing.JComboBox<String> Tbid;
-    private com.toedter.calendar.JDateChooser Tdate;
     private javax.swing.JTextField Tdct;
     private javax.swing.JButton Tdeletebtn;
     private javax.swing.JButton Teditbtn;
@@ -1962,7 +2114,6 @@ try {
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
